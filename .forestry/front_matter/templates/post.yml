@@ -10,3 +10,12 @@ fields:
 - type: file
   name: figure
   label: Imagem
+- type: select
+  config:
+    source:
+      type: simple
+    required: true
+    options:
+    - post
+  name: layout
+  default: post
