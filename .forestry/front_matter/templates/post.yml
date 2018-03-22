@@ -21,3 +21,4 @@ fields:
     - post
   name: layout
   default: post
+  label: Tema da página
