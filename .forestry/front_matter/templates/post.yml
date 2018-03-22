@@ -1,0 +1,12 @@
+---
+hide_body: false
+fields:
+- type: text
+  label: Resumo / Descrição
+  name: summary
+- type: text
+  name: author
+  label: Autor
+- type: file
+  name: figure
+  label: Imagem
