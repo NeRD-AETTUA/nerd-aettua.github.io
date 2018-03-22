@@ -21,3 +21,8 @@ theme: minima
 plugins:
 - jekyll-redirect-from
 - jekyll-feed
+defaults:
+  scope:
+    type: posts
+  values:
+    layout: "post"
