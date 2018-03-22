@@ -21,8 +21,6 @@ theme: minima
 plugins:
 - jekyll-redirect-from
 - jekyll-feed
-defaults:
-  scope:
-    type: posts
-  values:
-    layout: "post"
+- jekyll-paginate
+paginate: 5
+paginate_path: "/blog/page:num/"

@@ -37,27 +37,26 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="/">NeRD</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand" href="/index.html">NeRD</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fa fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/blog/">Últimos Projetos</a>
+            <a class="nav-link" href="/blog/index.html">Últimos Projetos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/about/">Sobre o NeRD</a>
+            <a class="nav-link" href="/about.html">Sobre o NeRD</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/contacts/">Contactos</a>
+            <a class="nav-link" href="/contact.html">Contactos</a>
           </li>
         </ul>
       </div>
     </div>
-  </nav>
+</nav>
 
   <!-- Page Header -->
   <header class="masthead" {% if page.figure %} style="background-image: url({{ page.figure }})" {% endif %}>
@@ -68,8 +67,9 @@
           <div class="page-heading">
             <h1>{{ page.title }}</h1>
             <h2 class="subheading">{{ page.summary }}</h2>
+            <br>
             <span class="meta">Por
-              <a href="#">{{ page.author }}</a>
+              <a href="#" style="color:azure">{{ page.author }}</a>
               a {{ page.date | date: "%d/%m/%Y %H:%M"  }}</span>
           </div>
         </div>
