@@ -4,7 +4,7 @@ layout: post
 date: 2018-03-22 05:28:48 +0000
 summary: Teste
 author: Rodrigo Rosmaninho
-figure: "/uploads/2018/03/22/nerd_s.png"
+figure: "/uploads/2018/03/22/S15mD.png"
 ---
 An h1 header
 ============
