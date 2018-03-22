@@ -37,4 +37,15 @@ Novos posts são escritos em formato **markdown** e adicionados através de comm
 
 No entanto, como o objetivo é que qualquer membro do NeRD possa adicionar um novo post, é importante ter um editor que não obrigue as pessoas a saber markdown.
 
-Como tal, foi adicionado uma página de administração
+Como tal, foi adicionada uma página de administração que redireciona para um editor de markdown porreiro ( que primeiro pede login).
+
+[nerd-aettua.github.io/admin/](https://nerd-aettua.github.io/admin/)
+![](/uploads/2018/03/22/editor.png)
+
+# Trabalho Pendente
+
+* Implementação de filtração de posts por tags / categorias (função nativa do jekyll)
+
+
+* Pensar no conteúdo que é importante ter nas páginas que estão incompletas (index.html, about.html, contacts.html) ----> J. Alegria
+* Implementar  o tal conteúdo ----> Tomás Martins
