@@ -2,7 +2,7 @@
 Website do NeRD
 
 
-![Logo](https://github.com/NeRD-AETTUA/website/blob/master/blog/static/blog/android-chrome-192x192.png?raw=true)
+![Logo](https://github.com/NeRD-AETTUA/nerd-aettua.github.io/blob/dev/static/blog/android-chrome-192x192.png?raw=true)
 
 Construído com Django
 
