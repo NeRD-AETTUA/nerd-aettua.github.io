@@ -3,6 +3,7 @@ pages:
 - _posts/2018-03-22-desenvolvimento-do-website.md
 - _posts/2018-03-22-markdown-example.md
 hide_body: false
+is_partial: false
 fields:
 - type: text
   label: Resumo / Descrição
@@ -23,3 +24,7 @@ fields:
   name: layout
   default: post
   label: Tema da página
+- type: boolean
+  name: published
+  label: Publicar
+  default: false
