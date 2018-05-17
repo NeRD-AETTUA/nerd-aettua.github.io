@@ -14,6 +14,12 @@ fields:
 - type: file
   name: figure
   label: Imagem
+- type: tag_list
+  name: tags
+  label: Tags
+- type: image_gallery
+  label: Anexos
+  name: files
 - type: select
   config:
     source:
@@ -24,6 +30,4 @@ fields:
   name: layout
   default: post
   label: Tema da página
-- type: image_gallery
-  label: Anexos
-  name: files
+  hidden: true
