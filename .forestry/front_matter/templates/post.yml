@@ -24,7 +24,6 @@ fields:
   name: layout
   default: post
   label: Tema da página
-- type: boolean
-  name: published
-  label: Publicar
-  default: false
+- type: image_gallery
+  label: Anexos
+  name: files
