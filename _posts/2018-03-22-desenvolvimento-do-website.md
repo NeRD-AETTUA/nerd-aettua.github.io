@@ -5,7 +5,7 @@ date: 2018-03-22 17:42:46 +0000
 figure: "/uploads/2018/03/22/work_nerd.png"
 summary: Resumo de todo o trabalho feito até agora
 author: Rodrigo Rosmaninho
-published: false
+published: true
 tags:
 - site
 files:
