@@ -31,3 +31,8 @@ fields:
   default: post
   label: Tema da página
   hidden: true
+- type: boolean
+  default: true
+  label: publicar
+  name: published
+  hidden: true
