@@ -5,6 +5,11 @@ date: 2018-03-22 17:42:46 +0000
 figure: "/uploads/2018/03/22/work_nerd.png"
 summary: Resumo de todo o trabalho feito até agora
 author: Rodrigo Rosmaninho
+published: false
+tags:
+- site
+files:
+- "/uploads/2018/05/17/LSDig_2017-18_TrabPrat07.pdf"
 ---
 ![](/uploads/2018/03/22/nerd_s.png)
 
