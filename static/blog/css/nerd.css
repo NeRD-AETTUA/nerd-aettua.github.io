@@ -2,3 +2,14 @@
     width:  80%;
     height: 10%;
 }
+
+.file{
+    max-height: 16px;
+    max-width: 16px;
+}
+
+.attachment_list{
+    margin-bottom: 5px;
+}
+
+h4 { white-space: nowrap; }

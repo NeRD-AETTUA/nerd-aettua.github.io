@@ -16,10 +16,12 @@
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
     rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
   <!-- Custom styles for this template -->
   <link href="/static/blog/css/clean-blog.min.css" rel="stylesheet">
   <link href="/static/blog/css/main.css" rel="stylesheet">
+  <link href="/static/blog/css/nerd.css" rel="stylesheet">
 
   <!-- Código relativo ao favicon -->
 
@@ -45,7 +47,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="/blog/index.html">Últimos Projetos</a>
+            <a class="nav-link" href="/blog/index.html">Projetos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/about.html">Sobre o NeRD</a>
@@ -82,8 +84,24 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-          {{ content }}
+          {{ content | replace: '<img', '<img class="img-fluid"'}}
         </div>
+        {% if page.files %}
+        <div class="col-lg-1 col-md-1 mx-auto" id="files">
+          <br>
+          <h4 nowrap>Ficheiros Anexados</h4>
+          <br>
+          <table style="width:100%">
+            {% for i in page.files %}
+            {% assign f = i | split: '/' %}
+            <tr class="attachment_list">
+              <td><a href={{i}}><i class="material-icons">insert_drive_file</i></a></td>
+              <td><a href={{i}}>{{f[5]}}</a></td>
+            </tr>
+            {% endfor %}
+          </table>
+        </div>
+        {% endif %}
       </div>
     </div>
   </article>

@@ -7,5 +7,6 @@ console.log("$$\\   $$\\           $$$$$$$\\  $$$$$$$\\ \n"
            +"$$ | \\$$ |\\$$$$$$$\\ $$ |  $$ |$$$$$$$  |\n"
            +"\\__|  \\__| \\_______|\\__|  \\__|\\_______/ ");
 
-console.log("\nMade in 2018 by Rodrigo Rosmaninho, MIECT student at the University of Aveiro");
-console.log("https://github.com/RodrigoRosmaninho");
+console.log("\nNúcleo de Estudantes de Robótica Diversificada - AETTUA");
+console.log("Website construído em 2018 por Rodrigo Rosmaninho, estudante do MIECT na UA ( https://github.com/RodrigoRosmaninho )");
+console.log("\nJá que andas aqui a mexer, se encontrares algum erro por favor cria um issue em https://github.com/NeRD-AETTUA/nerd-aettua.github.io \n;-)")
