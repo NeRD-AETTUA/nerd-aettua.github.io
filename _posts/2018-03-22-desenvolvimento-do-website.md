@@ -5,11 +5,12 @@ date: 2018-03-22 17:42:46 +0000
 figure: "/uploads/2018/03/22/work_nerd.png"
 summary: Resumo de todo o trabalho feito até agora
 author: Rodrigo Rosmaninho
-published: true
 tags:
 - site
 files:
 - "/uploads/2018/05/17/LSDig_2017-18_TrabPrat07.pdf"
+published: false
+
 ---
 ![](/uploads/2018/03/22/nerd_s.png)
 
@@ -17,7 +18,7 @@ files:
 
 > "Quanto às ideias o que já se tinha falado era um site cujo principal foco é mostrar os projetos do nerd. Tem que dar para por fotos dos projetos juntamente com texto. Tipo instructables talvez"
 >
-> -Magalhães
+> \-Magalhães
 
 * Ter um lugar onde haja informação geral sobre o NeRD e os principais projetos. Pode ajudar na obtenção de novos elementos.
 * Ter um lugar onde o pessoal interessado se pode ir mantendo a par dos projetos do NeRD através de posts com mais detalhe do que aquilo que é posto no facebook.
@@ -50,7 +51,5 @@ Como tal, foi adicionada uma página de administração que redireciona para um 
 
 * Implementação de filtração de posts por tags / categorias (função nativa do jekyll) ----> R. Rosmaninho
 * Documentação do projeto ----> R. Rosmaninho
-
-
 * Pensar no conteúdo que é importante ter nas páginas que estão incompletas (index.html, about.html, contacts.html) ----> J. Alegria
-* Implementar  o tal conteúdo ----> Tomás Martins
+* Implementar  o tal conteúdo ----> R. Rosmaninho & Tomás Martins

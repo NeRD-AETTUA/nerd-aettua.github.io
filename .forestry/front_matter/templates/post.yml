@@ -1,7 +1,5 @@
 ---
-pages:
-- _posts/2018-03-22-desenvolvimento-do-website.md
-- _posts/2018-03-22-markdown-example.md
+label: post
 hide_body: false
 is_partial: false
 fields:
@@ -36,3 +34,6 @@ fields:
   label: publicar
   name: published
   hidden: true
+pages:
+- _posts/2018-03-22-desenvolvimento-do-website.md
+- _posts/2018-03-22-markdown-example.md
