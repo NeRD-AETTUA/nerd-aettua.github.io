@@ -41,7 +41,7 @@ GEM
       jekyll-readme-index (= 0.2.0)
       jekyll-redirect-from (= 0.13.0)
       jekyll-relative-links (= 0.5.3)
-      jekyll-remote-theme (= 0.2.3)
+      jekyll-remote-theme (= 0.3.1)
       jekyll-sass-converter (= 1.5.2)
       jekyll-seo-tag (= 2.4.0)
       jekyll-sitemap (= 1.2.0)
