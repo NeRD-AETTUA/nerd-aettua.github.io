@@ -35,5 +35,5 @@ fields:
   name: published
   hidden: true
 pages:
-- _posts/2018-03-22-markdown-example.md
 - _posts/2018-03-22-desenvolvimento-do-website.md
+- _posts/2018-03-22-markdown-example.md
