@@ -9,7 +9,6 @@ tags:
 - site
 files:
 - "/uploads/2018/05/17/LSDig_2017-18_TrabPrat07.pdf"
-published: false
 
 ---
 ![](/uploads/2018/03/22/nerd_s.png)
